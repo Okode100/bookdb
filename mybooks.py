@@ -120,7 +120,7 @@ root.configure(background="light green")
 root.geometry("850x500")
 root.resizable(width=False, height=False)
 
-title_label =ttk.Label(root,text="Title",background="light green", font=("TkDefaultFont",16))
+title_label =ttk.Label(root,text="Title",background="golden", font=("TkDefaultFont",16))
 title_label.grid(row=0,column=0,sticky=W)
 title_text = StringVar()
 title_entry = ttk.Entry(root, width=24,textvariable=title_text)
